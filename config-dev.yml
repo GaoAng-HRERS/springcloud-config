@@ -1,16 +1,2 @@
-server:
-  port: 9001
-
-spring:
-  application:
-    name: nacos-payment-provider
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+config:
+  info: "master branch,springcloud-config/config-dev.yml version=1"
